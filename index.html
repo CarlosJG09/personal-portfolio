@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jhon Gabriel M. Carlos — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">JGC</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <button class="overlay-close" id="overlayClose">✕</button>
+    <nav class="overlay-nav">
+      <a href="#about" class="overlay-link">About</a>
+      <a href="#education" class="overlay-link">Education</a>
+      <a href="#skills" class="overlay-link">Skills</a>
+      <a href="#contact" class="overlay-link">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-tag reveal">IT Student · University of the Cordillera</div>
+      <h1 class="hero-heading reveal">
+        Jhon Gabriel<br />
+        <span class="hero-surname">M. Carlos</span>
+      </h1>
+      <p class="hero-sub reveal">Aspiring developer passionate about building clean,<br class="desk-only" /> purposeful digital experiences.</p>
+      <a href="#about" class="hero-btn reveal">View Portfolio</a>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <div class="deco-circle c1"></div>
+      <div class="deco-circle c2"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="photo-frame">
+            <img src="photo/my_photo.png" alt="Jhon Gabriel M. Carlos" style="width:100%; height:100%; object-fit:cover; border-radius:12px;" />
+          </div>
+        </div>
+        <div class="about-body">
+          <p class="about-text reveal">Hi, I'm Jhon Gabriel — a Bachelor of Science in Information Technology student at the University of the Cordillera. I'm passionate about using technology to solve real-world problems and create meaningful digital solutions.</p>
+          <p class="about-text reveal">My studies have given me a strong foundation in web development, database systems, and software design. I work with technologies like HTML, CSS, Python, PHP, and SQL, and I'm always eager to expand my skill set through hands-on projects and continuous learning.</p>
+          <p class="about-text reveal">I'm a detail-oriented, self-motivated learner who thrives both independently and in team environments. My goal is to grow into a well-rounded IT professional who can contribute meaningfully to innovative and impactful technology projects.</p>
+          <div class="about-chips reveal">
+            <span class="chip">📍 Baguio City, PH</span>
+            <span class="chip">🎓 BS Information Technology</span>
+            <span class="chip">💻 Open to Opportunities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section-tint" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-body">
+          <span class="edu-year">2023 – Present</span>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p class="edu-school">University of the Cordillera — Baguio City, Philippines</p>
+          <p class="edu-desc">Currently pursuing a degree in Information Technology with focus on web development, database management, and systems analysis. Actively participating in university tech activities and personal coding projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-top"><span>HTML & CSS</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Backend & Scripting</h3>
+          <div class="skill-item">
+            <div class="skill-top"><span>Python</span><span class="skill-pct">65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span>PHP</span><span class="skill-pct">60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="60"></div></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Database & Tools</h3>
+          <div class="skill-item">
+            <div class="skill-top"><span>SQL</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-top"><span>Git & GitHub</span><span class="skill-pct">65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="tag-row reveal">
+        <span class="stag">HTML</span>
+        <span class="stag">CSS</span>
+        <span class="stag">Python</span>
+        <span class="stag">PHP</span>
+        <span class="stag">SQL</span>
+        <span class="stag">Git</span>
+        <span class="stag">GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <p class="contact-sub reveal">Feel free to reach out — whether it's about a project, an opportunity, or just to say hello.</p>
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <div class="cinfo-item">
+            <span class="cinfo-icon">✉</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:jhongabriel0502@gmail.com">jhongabriel0502@gmail.com</a>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <span class="cinfo-icon">🐙</span>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/CarlosJG09" target="_blank">github.com/CarlosJG09</a>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <span class="cinfo-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <span>Baguio City, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="fgroup">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" placeholder="Your full name" />
+            <span class="ferror" id="fnameErr"></span>
+          </div>
+          <div class="fgroup">
+            <label for="femail">Email</label>
+            <input type="email" id="femail" placeholder="your@email.com" />
+            <span class="ferror" id="femailErr"></span>
+          </div>
+          <div class="fgroup">
+            <label for="fmsg">Message</label>
+            <textarea id="fmsg" rows="5" placeholder="What's on your mind?"></textarea>
+            <span class="ferror" id="fmsgErr"></span>
+          </div>
+          <button type="submit" class="form-btn">Send Message →</button>
+          <p class="form-success" id="formSuccess">✓ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="footerYear"></span> <strong>Jhon Gabriel M. Carlos</strong></p>
+    <p class="f
